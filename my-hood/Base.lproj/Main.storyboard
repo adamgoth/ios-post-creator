@@ -46,9 +46,58 @@
                                     <constraint firstAttribute="bottom" secondItem="NVC-0P-cHU" secondAttribute="bottom" constant="8" id="x3G-ZU-Ya1"/>
                                 </constraints>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rba-dr-huS">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="87" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rba-dr-huS">
                                 <rect key="frame" x="20" y="84" width="560" height="496"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="87" id="SfR-Wv-bqY">
+                                        <rect key="frame" x="0.0" y="28" width="560" height="87"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SfR-Wv-bqY" id="sSQ-AK-aSL">
+                                            <rect key="frame" x="0.0" y="0.0" width="560" height="86.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="barrel-water-bridge" translatesAutoresizingMaskIntoConstraints="NO" id="HfJ-lv-gzj">
+                                                    <rect key="frame" x="8" y="8" width="70" height="70"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="70" id="kFE-Az-uqG"/>
+                                                        <constraint firstAttribute="width" constant="70" id="oEf-N6-Wmq"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yhakjskdjas kjdkajs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uO7-Iq-k9B">
+                                                    <rect key="frame" x="86" y="8" width="466" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="UoO-f8-8Oc"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="kFl-DV-CfU">
+                                                    <rect key="frame" x="86" y="32" width="466" height="46"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="46" id="c2j-1l-cy5"/>
+                                                    </constraints>
+                                                    <string key="text">yasda ysd asidhask asdkjaskjdas akjsdaksjhda skjdahs dkjasdasdasdasdasdasksjldkfjsldkfjasdlkfjasdlkfj asdf asdf  asd fasd f sdf sad fas dfas df asd fas dfas</string>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="17"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="kFl-DV-CfU" firstAttribute="leading" secondItem="HfJ-lv-gzj" secondAttribute="trailing" constant="8" id="0BJ-o2-rIS"/>
+                                                <constraint firstItem="uO7-Iq-k9B" firstAttribute="leading" secondItem="HfJ-lv-gzj" secondAttribute="trailing" constant="8" id="3sV-iL-uao"/>
+                                                <constraint firstItem="uO7-Iq-k9B" firstAttribute="top" secondItem="sSQ-AK-aSL" secondAttribute="topMargin" id="4FX-b7-dDd"/>
+                                                <constraint firstItem="kFl-DV-CfU" firstAttribute="trailing" secondItem="sSQ-AK-aSL" secondAttribute="trailingMargin" id="BxT-LO-CeE"/>
+                                                <constraint firstItem="uO7-Iq-k9B" firstAttribute="trailing" secondItem="sSQ-AK-aSL" secondAttribute="trailingMargin" id="MRT-nv-QAu"/>
+                                                <constraint firstItem="HfJ-lv-gzj" firstAttribute="top" secondItem="sSQ-AK-aSL" secondAttribute="topMargin" id="ecv-iE-bM0"/>
+                                                <constraint firstItem="HfJ-lv-gzj" firstAttribute="leading" secondItem="sSQ-AK-aSL" secondAttribute="leadingMargin" id="ohQ-UO-RJ9"/>
+                                                <constraint firstItem="kFl-DV-CfU" firstAttribute="top" secondItem="uO7-Iq-k9B" secondAttribute="bottom" constant="3" id="v1B-6f-IaY"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="HfJ-lv-gzj" secondAttribute="bottom" id="y9V-po-jlO"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -70,6 +119,7 @@
     </scenes>
     <resources>
         <image name="bannerlogo" width="518" height="194"/>
+        <image name="barrel-water-bridge" width="550" height="440"/>
         <image name="camera" width="100" height="77"/>
     </resources>
 </document>
