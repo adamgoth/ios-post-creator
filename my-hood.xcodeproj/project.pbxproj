@@ -13,6 +13,7 @@
 		F9E588931D2DC72B0056509B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9E588921D2DC72B0056509B /* Assets.xcassets */; };
 		F9E588961D2DC72B0056509B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E588941D2DC72B0056509B /* LaunchScreen.storyboard */; };
 		F9E5889F1D2DC7A60056509B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E5889E1D2DC7A60056509B /* Post.swift */; };
+		F9E588A21D2DD0050056509B /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E588A11D2DD0050056509B /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F9E588951D2DC72B0056509B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9E588971D2DC72B0056509B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9E5889E1D2DC7A60056509B /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		F9E588A11D2DD0050056509B /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		F9E5888A1D2DC72B0056509B /* my-hood */ = {
 			isa = PBXGroup;
 			children = (
+				F9E588A01D2DCFD90056509B /* View */,
 				F9E5889D1D2DC78D0056509B /* Model */,
 				F9E5888B1D2DC72B0056509B /* AppDelegate.swift */,
 				F9E5888D1D2DC72B0056509B /* ViewController.swift */,
@@ -73,6 +76,14 @@
 				F9E5889E1D2DC7A60056509B /* Post.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		F9E588A01D2DCFD90056509B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F9E588A11D2DD0050056509B /* PostCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 				F9E5889F1D2DC7A60056509B /* Post.swift in Sources */,
 				F9E5888E1D2DC72B0056509B /* ViewController.swift in Sources */,
 				F9E5888C1D2DC72B0056509B /* AppDelegate.swift in Sources */,
+				F9E588A21D2DD0050056509B /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
